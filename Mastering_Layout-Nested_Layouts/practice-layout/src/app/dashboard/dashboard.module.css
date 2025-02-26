@@ -1,0 +1,35 @@
+.row {
+  padding: 1rem;
+  border: 1px solid rgb(0, 247, 255);
+  background-color: rgb(50, 0, 0);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 50vh;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(0, 247, 255);
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: rgb(238, 255, 0);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
